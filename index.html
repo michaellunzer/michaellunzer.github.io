@@ -60,6 +60,9 @@
 						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
 					</li>
 					<li>
+						<a href="#map"><i class="fa fa-globe"></i> Travel</a>
+					</li>
+					<li>
 						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
 					</li>
 					<li>
@@ -114,13 +117,13 @@
 					<section class="block-body">
 						<div class="row">
 							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/rain_1-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
+								<a href="#" class="recent-work" style="background-image:url(assets/images/oregoncoaster300.jpg)">
+									<span class="btn btn-o-white">The Oregon Coaster</span>
 								</a>
 							</div>
 							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/min_icons_thumb1-320x240.jpg)">
-									<span class="btn btn-o-white">Lorem Rocks</span>
+								<a href="#" class="recent-work" style="background-image:url(assets/images/BikeWheel-300x240.jpg)">
+									<span class="btn btn-o-white">DSC433:<br/>An Analysis of Bike<br/>Theft Data in Eugene, OR</span>
 								</a>
 							</div>
 							<div class="col-sm-4">
@@ -228,8 +231,18 @@
 				</div>
 			</div><!-- #parallax -->
 
-			<div class="iframe-container">
-				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=17ijR5B6bvvIgiqRFaEdr0EzwDDU"></iframe>
+			<div id="map" class="iframe-container">
+				<!-- <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+
+      }
+    </script> -->
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=17ijR5B6bvvIgiqRFaEdr0EzwDDU&zoom=14"></iframe>
 			</div>
 
 
@@ -319,7 +332,7 @@
 		<script src="assets/js/jquery.actual.min.js"></script>
 		<script src="assets/js/jquery.scrollTo.min.js"></script>
 		<script src="assets/js/script.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp&callback=initMap"></script>
 
 
 	</body>
