@@ -351,9 +351,13 @@ h1, h2, h3, h4, h5, h6{
 
 
 .iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 40%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: auto;
+	-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY
+	border: solid black 1px;
 }
 .iframe-container > *{
     display: block;
