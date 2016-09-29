@@ -365,6 +365,11 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 75%;
 }
 
+/* 9x16 Aspect Ratio */
+.intrinsic-container-9x16 {
+  padding-bottom: 75%;
+}
+
 .intrinsic-container iframe {
   position: absolute;
   top:0;
