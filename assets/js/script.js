@@ -78,7 +78,19 @@
 
 // Instagram Instashow widget
 
-
+<script>
+    $('.my-instashow').instaShow({
+        access-token: '850fc4185da64f47aaaa226035c868a0',
+        source: '',
+        width: 'auto',
+        height: '500px',
+        columns: 5,
+        rows: 3,
+        direction: 'vertical',
+        lang: 'en',
+        popupInfo: ''
+    });
+</script>
 
  // end Instagram widget
 
