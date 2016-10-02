@@ -27,6 +27,8 @@
 
 		<link href="assets/css/jquery.instashow.min.css" rel="stylesheet">
 
+		<link href="assets/css/jqinstagram.css" rel="stylesheet">
+
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="assets/js/html5shiv.js"></script>
@@ -245,8 +247,8 @@
 						<h1>Instagram Photos</h1>
 						<p>Uhh yeah</p>
 					</header>
-					<!-- <section class="block-body">
-						<div class="row">
+						<!-- 	<section class="block-body">
+								<div class="row">
 							<div class="col-md-4">
 								<div class="testimonial">
 									<img src="assets/images/testimonial_31-190x190.jpg">
@@ -272,28 +274,22 @@
 								</div>
 							</div>
 						</div>
-					</section> -->
-
-					<!-- <div data-is
-					     data-is-access-token="850fc4185da64f47aaaa226035c868a0"
-					     data-is-source=""
-					     data-is-width="auto"
-					     data-is-height="500px"
-					     data-is-columns="5"
-					     data-is-rows="3"
-					     data-is-direction="vertical"
-					     data-is-lang="en"
-					     data-is-popup-info="">
-					</div> -->
-
-
-				<div class="my-instashow"></div>
-
-
-
-
+				 </section>		 -->
 				</div>
+
+
+					 <div class="instagram">
+	 					<ul id="instagram"></ul>
+	 				</div>
+
+
+
 			</div><!-- /#testimonials -->
+
+
+
+
+
 
 
 			<div class="content-block" id="contact">
@@ -352,6 +348,36 @@
 		<script src="assets/instashow/jquery.instashow.packaged.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
 		<script src="assets/js/jquery.instashow.min.js"></script>
+
+		<script src="assets/js/jqinstapics.min.js"></script>
+
+
+
+
+
+
+
+
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.3.1/instagram.min.js"></script>
+		<script>
+jQuery(function($) {
+  $('.instagram').on('willLoadInstagram', function(event, options) {
+    console.log(options);
+  });
+  $('.instagram').on('didLoadInstagram', function(event, response) {
+    console.log(response);
+  });
+  $('.instagram').instagram({
+    userId: '5373218',
+		accessToken: '5373218.850fc41.07229c6e3dfb449997480b6cde7ce0d9',
+		count: 20
+    // clientId: '850fc4185da64f47aaaa226035c868a0'
+  });
+});
+</script> -->
+
+		<!-- <script type="text/javascript" src="assets/js/spectragram.min.js"></script> -->
+
 
 	</body>
 </html>

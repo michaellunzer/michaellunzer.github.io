@@ -1,3 +1,17 @@
+// jQuery.fn.spectragram.accessData = {
+//     accessToken: '5373218.674061d.d6bddba2221f4332b42b06ad4d1b2929',
+//     clientID: '850fc4185da64f47aaaa226035c868a0'
+// };
+//
+// $('my-instashow').spectragram({
+//     query: 'michaellunzer',
+//     max: 14,
+//     size: 'big',
+//     wrapEachWith: '<p></p>'
+// });
+
+
+
 (function($,sr){
 
   // debouncing function from John Hann
@@ -58,41 +72,26 @@
 	}
 
 
-  // $(document).ready(function() {
-  //
-  // var map;
-  // function initialize() {
-  //   var mapOptions = {
-  //     zoom: 8,
-  //     center: new google.maps.LatLng(-34.397, 150.644),
-  //     mapTypeId: google.maps.MapTypeId.ROADMAP
-  //   };
-  //   map = new google.maps.Map(document.getElementById('map-canvas'),
-  //                             mapOptions);
-  // }
-  //
-  // google.maps.event.addDomListener(window, 'load', initialize);
-  //
-  // });
-  //
-
 // Instagram Instashow widget
 
 
-    $('.my-instashow').instaShow({
-        access-token: 'd7a53ca461c345c4aaafffd328b3884a',
-        source: '@michaellunzer',
-        width: 'auto',
-        height: '500px',
-        columns: 5,
-        rows: 3,
-        direction: 'vertical',
-        lang: 'en',
-        popupInfo: ''
-    });
+    // $('.my-instashow').instaShow({
+    //     accessToken: '5373218.850fc41.07229c6e3dfb449997480b6cde7ce0d9',
+    //     source: '',
+    //     width: 'auto',
+    //     height: '500px',
+    //     columns: 5,
+    //     rows: 3,
+    //     direction: 'vertical',
+    //     lang: 'en',
+    //     popupInfo: ''
+    // });
 
 
  // end Instagram widget
+
+
+
 
 
 
@@ -193,3 +192,11 @@ $("submit_form").click(function(){
 	});
 
 })();
+
+jQuery(document).ready(function($) {
+  $("#instagram").jqinstapics({
+    "user_id": "5373218",
+    "access_token": "5373218.850fc41.07229c6e3dfb449997480b6cde7ce0d9",
+    "count": 20
+  })
+});
