@@ -14,16 +14,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
 
 		<!-- google fonts -->
-		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Sans'>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
 
 		<!-- css -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
+
+		<link href="assets/css/jquery.instashow.min.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -227,7 +229,7 @@
 
 			<div class="content-block parallax" id="parallax">
 				<div class="container text-center">
-					<h1>"Give me six hours to chop down a tree and I will spend the first four sharpening the axe. ~ Abraham Lincoln"</h1>
+					<h1>"Give me six hours to chop down a tree and I will spend the first four sharpening the axe ~ Abraham Lincoln"</h1>
 					<!-- <a href="" class="btn btn-o-white btn-lg">Get a free quote</a> -->
 				</div>
 			</div><!-- #parallax -->
@@ -240,10 +242,10 @@
 			<div class="content-block" id="testimonials">
 				<div class="container">
 					<header class="block-heading cleafix">
-						<h1>Testimonials</h1>
-						<p>Some happy customers have to say.</p>
+						<h1>Instagram Photos</h1>
+						<p>Uhh yeah</p>
 					</header>
-					<section class="block-body">
+					<!-- <section class="block-body">
 						<div class="row">
 							<div class="col-md-4">
 								<div class="testimonial">
@@ -270,7 +272,21 @@
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> -->
+
+					<div data-is
+					     data-is-api="/instashow/api/"
+					     data-is-source="@muradosmann"
+					     data-is-width="auto"
+					     data-is-height="500px"
+					     data-is-columns="5"
+					     data-is-rows="3"
+					     data-is-direction="vertical"
+					     data-is-lang="en"
+					     data-is-popup-info="">
+					</div>
+
+
 				</div>
 			</div><!-- /#testimonials -->
 
@@ -325,8 +341,11 @@
 		<script src="assets/js/jquery.actual.min.js"></script>
 		<script src="assets/js/jquery.scrollTo.min.js"></script>
 		<script src="assets/js/script.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp&callback=initMap"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA"></script>
+		<!-- &amp&callback=initMap -->
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
+		<script src="assets/js/jquery.instashow.min.js"></script>
 
 	</body>
 </html>
