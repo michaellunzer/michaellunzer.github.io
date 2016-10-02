@@ -78,10 +78,10 @@
 
 // Instagram Instashow widget
 
-<script>
+
     $('.my-instashow').instaShow({
-        access-token: '850fc4185da64f47aaaa226035c868a0',
-        source: '',
+        access-token: 'd7a53ca461c345c4aaafffd328b3884a',
+        source: '@michaellunzer',
         width: 'auto',
         height: '500px',
         columns: 5,
@@ -90,7 +90,7 @@
         lang: 'en',
         popupInfo: ''
     });
-</script>
+
 
  // end Instagram widget
 
