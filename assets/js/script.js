@@ -76,6 +76,16 @@
   // });
   //
 
+// Instagram Instashow widget
+
+
+
+ // end Instagram widget
+
+
+
+
+
 
 
 $("submit_form").click(function(){
@@ -100,7 +110,7 @@ $("submit_form").click(function(){
   //and reset the form
   alert("Thank you, for contacting us");
 });
-}
+});
 
 
 	///////////////////////////////
