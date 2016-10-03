@@ -4,3 +4,5 @@ title: test
 layout: post
 ---
 test 123
+
+<img src="http://www.manitowoc.org/images/pages/N906/duck-picture%5B1%5D.jpg">
