@@ -162,13 +162,29 @@
 
 })();
 
+//   jQuery.ajax({
+//   dataType: 'jsonp',
+//   url: "http://getsimpleform.com/messages/ajax?form_api_token=39c8f9e5a2de15ad63469475702522b9",
+//   data: {
+//     name: contact_email,
+//     message: contact_message,
+//   }
+// }).done(function() {
+//   //callback which can be used to show a thank you message
+//   //and reset the form
+//   alert("Thank you for contacting me");
+// });
+
+
+
+
 jQuery(document).ready(function($) {
   $("#instagram").jqinstapics({
     "user_id": "5373218",
     "access_token": "5373218.850fc41.07229c6e3dfb449997480b6cde7ce0d9",
     "count": 20
   })
-
+});
   // $("submit_form").click(function(){
   //   $( "input" )
   //     .keyup(function() {
@@ -177,21 +193,3 @@ jQuery(document).ready(function($) {
   //       var contact_message = $( "contact_message" ).text( value );
   //     })
   //     .keyup();
-  //
-  //
-    $.ajax({
-    dataType: 'jsonp',
-    url: "http://getsimpleform.com/messages/ajax?form_api_token=39c8f9e5a2de15ad63469475702522b9",
-    data: {
-      name: contact_email,
-      message: contact_message,
-    }
-  }).done(function() {
-    //callback which can be used to show a thank you message
-    //and reset the form
-    alert("Thank you for contacting me");
-  });
-  // });
-
-
-});
