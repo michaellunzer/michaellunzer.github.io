@@ -4,7 +4,6 @@ title: test
 layout: post
 tags: [ducks, test, github]
 categories: [writing, test, ducks]
-permalink: test
 ---
 test 123
 
