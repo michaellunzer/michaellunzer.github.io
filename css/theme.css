@@ -3422,12 +3422,22 @@ footer.short-2 .contact-action:hover {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
 }
-.expanding-ul .title i {
+
+/*.icon_close_alt {
   color: #e74c3c;
   font-size: 32px;
   display: inline-block;
   margin-right: 24px;
+}*/
+
+.expanding-ul .title i {
+  color: #e74c3c;
+  /*18B3C3;*/
+  font-size: 32px;
+  display: inline-block;
+  margin-right: 24px;
 }
+
 .expanding-ul .title span {
   position: relative;
   bottom: 8px;
