@@ -3411,7 +3411,7 @@ footer.short-2 .contact-action:hover {
   overflow: hidden;
 }
 .expanding-ul li {
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 24px;
   margin-bottom: 24px;

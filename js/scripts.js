@@ -388,8 +388,14 @@ $(document).ready(function(){
 	// Expanding Lists (updated in Pivot 1.4.0)
 
 	$('.expanding-ul li').click(function(){
-		$('.expanding-ul li').removeClass('active');
-		$(this).addClass('active');
+		// $('.expanding-ul li').removeClass('active');
+
+		if($(this).hasClass('active')) {
+			$(this).removeClass('active');
+		}
+		else {
+			$(this).addClass('active');
+		}
 	});
 
 });
