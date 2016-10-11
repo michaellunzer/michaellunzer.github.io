@@ -3754,13 +3754,22 @@ footer.short-2 .contact-action:hover {
   z-index: 2;
 }
 
-@media (max-width: 480px) {
+/*.iframe-container{
+    position: relative;
+    width: 100%;
+    /*padding-bottom: 56.25%; */
+    /* Ratio 16:9 ( 100%/16*9 = 56.25% )
+}*/
+
+
+/*@media screen and (max-width: 480px) {
   .iframe-container{
 	    position: relative;
 	    width: 100%;
-	    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
-}
-
+	    padding-bottom: 56.25%;
+      /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    /*}
+}*/
 @media screen and (max-width: 767px) {
   .article-body iframe {
     height: 215px;
