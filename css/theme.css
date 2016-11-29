@@ -399,7 +399,7 @@ nav hr {
   position: relative;
   bottom: 2px;
 }
-.has-dropdown {
+.ddropdown {
   bottom: 3px;
 }
 .has-dropdown:after {
@@ -509,7 +509,7 @@ nav hr {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
-  padding-bottom: 40px;
+  padding-bottom: 5px;
   display: inline-block;
   line-height: 14px;
 }
@@ -2871,7 +2871,6 @@ footer.short-2 .contact-action:hover {
   }
   .has-dropdown {
     bottom: 0px;
-    padding-bottom: 5px;
   }
   .menu {
     top: 0px;
