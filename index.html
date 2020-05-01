@@ -20,6 +20,16 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <!-- <link href="css/jqinstagram.css" rel="stylesheet"> -->
 
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
+        <style>
+          body { margin: 0; padding: 0; }
+          #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        </style>
+
+
+
         <!--[if gte IE 9]>
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
 		<![endif]-->
@@ -258,8 +268,20 @@
 
 			<section class="map">
 				<div class="map-holder">
-					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=17ijR5B6bvvIgiqRFaEdr0EzwDDU"></iframe>
-				</div>
+<!-- 					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=17ijR5B6bvvIgiqRFaEdr0EzwDDU"></iframe>
+ -->			
+        <div id="map"></div>
+
+         <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGFlbGx1bnplciIsImEiOiJjazlhcWNqb2cwNmxtM2VscXMyd3E2bWZmIn0.2rfq_tg31PJDfkf6xZT2Mw';
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/michaellunzer/ck9nu9u5u2cyi1io8322hfeeb',
+          center: [-112.846480, 39.870536],
+          zoom: 1.5
+        });
+        </script>
+          </div>
 			</section>
 
 			<section>
